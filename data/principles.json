@@ -1,0 +1,19 @@
+{
+  "principles": [
+    {
+      "id": 1,
+      "text": "Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.",
+      "color": "#EB5757"
+    },
+    {
+      "id": 2,
+      "text": "Welcome changing requirements. Agile processes harness change for the customer’s competitive advantage.",
+      "color": "#F2994A"
+    },
+    {
+      "id": 3,
+      "text": "Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.",
+      "color": "#F2C94C"
+    }
+  ]
+}

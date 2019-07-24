@@ -1,0 +1,32 @@
+{
+  "practices": [
+    {
+      "id": 1,
+      "title": "Team kick-off",
+      "why": "To set a team up for success, identify purpose and build relationships.",
+      "how": "Done for all teams when they’re first established or when new people join an existing team.",
+      "principles": [1, 3]
+    },
+    {
+      "id": 2,
+      "title": "User stories and epics",
+      "why": "Ensures the user remains our core focus, explains why we do a piece of work.",
+      "how": "Tend to use ‘As a’, ‘I want’, ‘So that’ format for stories. Articulate the problem & business needs but the team define the solution.",
+      "principles": [2]
+    },
+    {
+      "id": 3,
+      "title": "Sign up/Team empowerment",
+      "why": "Empower people, and try to promote autonomy, mastery and purpose in team members.",
+      "how": "Priority of work is determined by POs, Teams decide on how best to deliver the outcome.",
+      "principles": []
+    },
+    {
+      "id": 22,
+      "title": "",
+      "why": "",
+      "how": "",
+      "principles": []
+    }
+  ]
+}
