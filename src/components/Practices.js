@@ -4,7 +4,7 @@ import { not, find, propEq } from 'ramda';
 import { PracticesContext } from '../context/PracticesContext';
 import { PrinciplesContext } from '../context/PrinciplesContext';
 
-import { Flag } from './index';
+import { Flag, H2, H3, Box, Grid, GridItem } from './index';
 
 function PrincipleFlags({ items }) {
   const { principles } = React.useContext(PrinciplesContext);
@@ -25,25 +25,31 @@ function Practices() {
   const { practices } = React.useContext(PracticesContext);
 
   if (not(practices.length)) {
-    return <h2>Add some practices dude</h2>;
+    return <H2>Add some practices dude</H2>;
   }
 
   return (
-    <div>
-      {practices.map((practice) => {
-        const { id, title, why, how, principles } = practice;
+    <>
+      <H2>Practices</H2>
 
-        return (
-          <div key={id}>
-            {title && <h3>{title}</h3>}
-            {why && <p>Why: {why}</p>}
-            {how && <p>How: {how}</p>}
+      <Grid>
+        {practices.map((practice) => {
+          const { id, title, why, how, principles } = practice;
 
-            {principles && <PrincipleFlags items={principles} />}
-          </div>
-        );
-      })}
-    </div>
+          return (
+            <GridItem key={id} width={[1, 1 / 3, 1 / 5]}>
+              <Box bg="beige">
+                {title && <H3>{title}</H3>}
+                {why && <p>Why: {why}</p>}
+                {how && <p>How: {how}</p>}
+
+                {principles && <PrincipleFlags items={principles} />}
+              </Box>
+            </GridItem>
+          );
+        })}
+      </Grid>
+    </>
   );
 }
 
