@@ -1,11 +1,38 @@
 import { normalize } from 'styled-normalize';
 import { createGlobalStyle } from 'styled-components';
 
+import RubikLatin300 from 'typeface-rubik/files/rubik-latin-300.woff';
+import RubikLatin300_2 from 'typeface-rubik/files/rubik-latin-300.woff';
+import RubikLatin400 from 'typeface-rubik/files/rubik-latin-400.woff';
+import RubikLatin400_2 from 'typeface-rubik/files/rubik-latin-400.woff';
+import RubikLatin500 from 'typeface-rubik/files/rubik-latin-500.woff';
+import RubikLatin500_2 from 'typeface-rubik/files/rubik-latin-500.woff';
+
 export default createGlobalStyle`
   ${normalize}
+  @font-face {
+    font-family: Rubik;
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+    src: url('${RubikLatin300_2}') format('woff2'), url('${RubikLatin300}') format('woff');
+  }
+  @font-face {
+    font-family: Rubik;
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url('${RubikLatin400_2}') format('woff2'), url('${RubikLatin400}') format('woff');
+  }
+  @font-face {
+    font-family: Rubik;
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+    src: url('${RubikLatin500_2}') format('woff2'), url('${RubikLatin500}') format('woff');
+  }
   body {
-    @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500&display=swap');
-    font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: Rubik, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     padding: 0;
     background-color: white;
     line-height: 1.4;
