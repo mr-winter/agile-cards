@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/agile-cards/static/js/main.8e000349.chunk.js",
-    "main.js.map": "/agile-cards/static/js/main.8e000349.chunk.js.map",
+    "main.js": "/agile-cards/static/js/main.110afeb7.chunk.js",
+    "main.js.map": "/agile-cards/static/js/main.110afeb7.chunk.js.map",
     "runtime~main.js": "/agile-cards/static/js/runtime~main.d9df6145.js",
     "runtime~main.js.map": "/agile-cards/static/js/runtime~main.d9df6145.js.map",
     "static/js/2.abd0ac02.chunk.js": "/agile-cards/static/js/2.abd0ac02.chunk.js",
     "static/js/2.abd0ac02.chunk.js.map": "/agile-cards/static/js/2.abd0ac02.chunk.js.map",
     "index.html": "/agile-cards/index.html",
-    "precache-manifest.47a6884b4525b1c9d5b0a2ae03a613d8.js": "/agile-cards/precache-manifest.47a6884b4525b1c9d5b0a2ae03a613d8.js",
+    "precache-manifest.27233c22a9687c4604f8df73860b40ec.js": "/agile-cards/precache-manifest.27233c22a9687c4604f8df73860b40ec.js",
     "service-worker.js": "/agile-cards/service-worker.js",
     "static/media/rubik-latin-300.woff": "/agile-cards/static/media/rubik-latin-300.73ce1e5f.woff",
     "static/media/rubik-latin-400.woff": "/agile-cards/static/media/rubik-latin-400.80a9477d.woff",
