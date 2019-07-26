@@ -13,8 +13,8 @@ const PageLayout = styled.div(
 
 PageLayout.defaultProps = {
   maxWidth: [null, null, null, 1400],
-  py: [2, 3],
-  px: [2, 3],
+  py: [3],
+  px: [3],
   mx: 'auto',
 };
 

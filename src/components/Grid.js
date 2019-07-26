@@ -11,8 +11,8 @@ const Grid = styled.div(
 
 Grid.defaultProps = {
   flexWrap: 'wrap',
-  mt: [-2, -3],
-  ml: [-2, -3],
+  mt: [-3],
+  ml: [-3],
 };
 
 export default Grid;
