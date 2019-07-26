@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/agile-cards/static/js/main.2a97bd92.chunk.js",
-    "main.js.map": "/agile-cards/static/js/main.2a97bd92.chunk.js.map",
+    "main.js": "/agile-cards/static/js/main.6c95c323.chunk.js",
+    "main.js.map": "/agile-cards/static/js/main.6c95c323.chunk.js.map",
     "runtime~main.js": "/agile-cards/static/js/runtime~main.d9df6145.js",
     "runtime~main.js.map": "/agile-cards/static/js/runtime~main.d9df6145.js.map",
     "static/js/2.985456c5.chunk.js": "/agile-cards/static/js/2.985456c5.chunk.js",
     "static/js/2.985456c5.chunk.js.map": "/agile-cards/static/js/2.985456c5.chunk.js.map",
     "index.html": "/agile-cards/index.html",
-    "precache-manifest.7331c1d8f92fed61bb84640f6b4479fe.js": "/agile-cards/precache-manifest.7331c1d8f92fed61bb84640f6b4479fe.js",
+    "precache-manifest.2387d44dbcee929547bf25acb8c10379.js": "/agile-cards/precache-manifest.2387d44dbcee929547bf25acb8c10379.js",
     "service-worker.js": "/agile-cards/service-worker.js"
   }
 }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9e54b59d8c743031332a0a2983cc0e7",
+    "revision": "3c7e9fc901c70f38ab42251416a2f11b",
     "url": "/agile-cards/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agile-cards/static/js/2.985456c5.chunk.js"
   },
   {
-    "revision": "cce5a77436d851d3fe88",
-    "url": "/agile-cards/static/js/main.2a97bd92.chunk.js"
+    "revision": "04bfbefa9b7b9d70ae0a",
+    "url": "/agile-cards/static/js/main.6c95c323.chunk.js"
   },
   {
     "revision": "909a48c5e58e293e3854",
