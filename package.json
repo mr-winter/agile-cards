@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@rebass/space": "2.0.0-0",
     "ramda": "0.26.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
     "react-scripts": "3.0.1",
     "styled-components": "4.3.2",
+    "styled-normalize": "8.0.6",
     "styled-system": "5.0.16"
   },
   "scripts": {
@@ -32,6 +34,8 @@
     ]
   },
   "devDependencies": {
+    "babel-plugin-styled-components": "1.10.6",
+    "polished": "3.4.1",
     "prettier": "1.18.2"
   }
 }

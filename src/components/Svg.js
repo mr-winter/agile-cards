@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { space, fontSize, width, color } from 'styled-system';
 
-const Svg = styled('svg')([], () => ({}), space, fontSize, width, color);
+const Svg = styled('svg')(space, fontSize, width, color);
 
 Svg.defaultProps = {
   fill: 'currentColor',
