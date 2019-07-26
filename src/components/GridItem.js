@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { Box } from '@rebass/grid';
+import { space, layout } from 'styled-system';
 
-const GridItem = styled(Box)``;
+const GridItem = styled.div(space, layout);
 
 GridItem.defaultProps = {
   pt: [2, 3],

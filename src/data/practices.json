@@ -19,7 +19,14 @@
       "title": "Sign up/Team empowerment",
       "why": "Empower people, and try to promote autonomy, mastery and purpose in team members.",
       "how": "Priority of work is determined by POs, Teams decide on how best to deliver the outcome.",
-      "principles": []
+      "more": "Some additional text.",
+      "links": [
+        {
+          "url": "https://www.google.com/",
+          "description": "Google"
+        }
+      ],
+      "principles": [4]
     }
   ]
 }

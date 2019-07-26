@@ -1,12 +1,14 @@
 export { default as Box } from './Box';
-export { default as Flag } from './Flag';
+export { default as Button } from './Button';
 export { default as Grid } from './Grid';
 export { default as GridItem } from './GridItem';
 export { default as H1 } from './H1';
 export { default as H2 } from './H2';
 export { default as H3 } from './H3';
+export { default as Link } from './Link';
 export { default as Loading } from './Loading';
 export { default as PageLayout } from './PageLayout';
 export { default as Practices } from './Practices';
 export { default as Principles } from './Principles';
+export { default as Shield } from './Shield';
 export { default as Svg } from './Svg';

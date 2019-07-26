@@ -12,27 +12,29 @@ function Principles() {
   }
 
   if (not(principles.length)) {
-    return <H2>Add some principles dude</H2>;
+    return <H2>Help, we have no principles!</H2>;
   }
 
   return (
     <>
-      <H2>Principles</H2>
-
       <Grid alignItems="stretch">
         {principles.map((principle) => {
           const { id, text, color } = principle;
 
           return (
             <GridItem key={id} width={[1, 1 / 2, 1 / 3, 1 / 4]}>
-              <Box bg={color} color="white" height="100%">
+              <Box bg={color} color="white" height="100%" boxShadow="medium">
                 <Grid>
                   <GridItem width={1 / 4}>
                     <H3 fontSize={8} lineHeight={1}>
                       {id}
                     </H3>
                   </GridItem>
-                  <GridItem width={3 / 4}>{text && <p>{text}</p>}</GridItem>
+                  {text && (
+                    <GridItem width={3 / 4}>
+                      <p>{text}</p>
+                    </GridItem>
+                  )}
                 </Grid>
               </Box>
             </GridItem>

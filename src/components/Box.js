@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { space, color, layout } from 'styled-system';
+import { flexbox, space, color, layout, shadow } from 'styled-system';
 
-const Box = styled.div(space, color, layout);
+const Box = styled.div(flexbox, space, color, layout, shadow);
 
 Box.defaultProps = {
   p: 3,

@@ -12,7 +12,7 @@ function App() {
       <PageLayout>
         <GlobalStyle />
 
-        <H1>Agile cards</H1>
+        <H1>Agile practice cards</H1>
 
         <Space mb={5}>
           <div>

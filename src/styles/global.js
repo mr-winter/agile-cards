@@ -4,7 +4,7 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
   ${normalize}
   body {
-    @import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500&display=swap');
     font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     padding: 0;
     background-color: white;
